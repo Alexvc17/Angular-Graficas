@@ -1,0 +1,8 @@
+<canvas baseChart class="chart" [data]="barChartData" [options]="barChartOptions" [plugins]="barChartPlugins" [type]="barChartType" (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)">
+</canvas>
+
+<div class="d-grid gap-2">
+    <button class="btn btn-primary" (click)="randomize()">
+  Update
+</button>
+</div>
